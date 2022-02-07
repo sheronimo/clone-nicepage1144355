@@ -39,7 +39,6 @@ h2 {
 }
 
 .page-heading {
-	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	font-size: 3.5rem;
 }
@@ -49,4 +48,38 @@ h2 {
 	margin: 1rem 0;
 	font-size: 1.25rem;
 	line-height: 1.7;
+}
+
+/* Services */
+.services {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 2rem;
+	margin-top: 3rem;
+}
+
+.service {
+	background: var(--primary-color);
+	padding: 3rem 2rem;
+	border-radius: 20px;
+}
+
+.service-icon {
+	background: white;
+	color: var(--primary-color);
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+}
+
+.service-heading {
+	font-weight: 400;
+	margin-top: 1rem;
+}
+
+.service-desc {
+	margin-top: 1rem;
+	color: #425465;
+	font-style: italic;
 }
