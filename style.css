@@ -18,4 +18,14 @@
 html,
 body {
 	font-family: 'Roboto', sans-serif;
+	line-height: 1.5;
+}
+
+/* Utilities */
+.container {
+	max-width: var(--max-width);
+	margin: auto;
+	padding: 0 1.5rem;
+}
+
 }
