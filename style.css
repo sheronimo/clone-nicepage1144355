@@ -28,19 +28,37 @@ h2 {
 .container {
 	max-width: var(--max-width);
 	margin: auto;
-	padding: 0 1.5rem;
+	padding: 3rem;
 	overflow: hidden;
+}
+
+@media (max-width: 500px) {
+	.container {
+		padding: 2rem;
+	}
 }
 
 /* Header */
 .page-header {
-	margin-top: 4rem;
+	margin-top: 2rem;
 	width: 80%;
+}
+
+@media (max-width: 1024px) {
+	.page-header {
+		width: 100%;
+	}
 }
 
 .page-heading {
 	font-weight: 700;
 	font-size: 3.5rem;
+}
+
+@media (max-width: 500px) {
+	.page-heading {
+		font-size: 2rem;
+	}
 }
 
 .lead-text {
@@ -55,13 +73,19 @@ h2 {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	grid-gap: 2rem;
-	margin-top: 3rem;
+	margin: 3rem 0;
 }
 
 .service {
 	background: var(--primary-color);
 	padding: 3rem 2rem;
 	border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+	.services {
+		grid-template-columns: 1fr;
+	}
 }
 
 .service-icon {
