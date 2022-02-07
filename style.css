@@ -46,7 +46,7 @@ h2 {
 
 .lead-text {
 	display: block;
-	margin-top: 1rem;
+	margin: 1rem 0;
 	font-size: 1.25rem;
 	line-height: 1.7;
 }
